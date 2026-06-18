@@ -110,7 +110,7 @@ def rodar_com_threads(limite, num_workers):
 # ─────────────────────────────────────────────
 def executar_experimentos():
     LIMITE       = 500_000
-    REPETICOES   = 3
+    REPETICOES   = 10
     WORKERS_LIST = [1, 2, 4]
 
     print("=" * 60)
