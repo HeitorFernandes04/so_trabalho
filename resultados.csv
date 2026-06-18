@@ -1,7 +1,7 @@
 abordagem,workers,tempo_medio,primos_encontrados
-Processos,1,1.6144,41538
-Threads,1,1.2142,41538
-Processos,2,1.1115,41538
-Threads,2,1.1469,41538
-Processos,4,1.033,41538
-Threads,4,1.2331,41538
+Processos,1,0.4231,41538
+Threads,1,0.3883,41538
+Processos,2,0.2961,41538
+Threads,2,0.3902,41538
+Processos,4,0.209,41538
+Threads,4,0.3609,41538
