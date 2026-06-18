@@ -21,19 +21,13 @@ python experimento.py
 
 O script vai:
 - Testar com 1, 2 e 4 workers
-- Rodar cada cenário 3 vezes para calcular médias
+- Rodar cada cenário 10 vezes para calcular médias
 - Salvar os resultados no arquivo `resultados.csv`
 
-### Passo 2 — Gerar os gráficos
+### Passo 2 — Verificar os resultados.
 
-```bash
-python gerar_graficos.py
-```
-
-Vai gerar o arquivo `graficos_comparativos.png` com 3 gráficos:
-1. Tempo de execução
-2. Uso de CPU
-3. Uso de memória
+O arquivo `resultados.csv` vai nos entregar as informações contendo:
+Abordagem, Workers e Tempo médio.
 
 ---
 
@@ -42,9 +36,7 @@ Vai gerar o arquivo `graficos_comparativos.png` com 3 gráficos:
 ```
 so_trabalho/
 ├── experimento.py        ← experimento principal
-├── gerar_graficos.py     ← gerador de gráficos
-├── resultados.csv        ← gerado após rodar o experimento
-└── graficos_comparativos.png  ← gerado pelo script de gráficos
+└── resultados.csv        ← gerado após rodar o experimento
 ```
 
 ---
